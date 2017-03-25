@@ -6,3 +6,4 @@ How to deploy Meteor application on Heroku Step by step
 5 run this command:heroku buildpacks:set https://github.com/AdmitHub/meteor-buildpack-horse.git
 6.Run this command: heroku addons:create mongolab:sandbox
  7. Finally run this command: heroku config:set ROOT_URL="https://leaderboard-asabeneh.herokuapp.com"
+8 Git push heroku master
